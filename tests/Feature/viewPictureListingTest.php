@@ -26,6 +26,7 @@ class viewPictureListingTest extends TestCase
         //Assert
         $response->assertStatus(200);
         $response->assertSeeText('Winter Crown');
+        $response->assertSeeText('Dimensions 100 by 100');
 
     }
 

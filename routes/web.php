@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/pictures/{id}', 'PictureController@show');
+Route::get('/galleries/{id}', 'GalleryController@show');
